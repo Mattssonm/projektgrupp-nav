@@ -1,0 +1,9 @@
+/* Import Merriweather font*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+/* <----------------Base style----------------> */
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 1.125em; /* 18/16 px */
+}
