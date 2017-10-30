@@ -1,0 +1,20 @@
+Möte 30/10
+Företag: vad ska vi sälja Eco mat produkter
+Ecostore
+
+Layout: 
+
+4 sidor: 
+
+1. Home - Sida med presentation av företagets produkter
+2. Products - Statisk webbshop  - en sida som visar alla produkter i ett rutnät
+3. Vision - Sida med beskrivning av företaget och företagets vision - var kreativa!
+4. Contact - Sida med presentation av er själva, med text, bild och påhittade titlar. Den ska även ha ett kontaktformulär med fälten namn, e-post och meddelande
+
+Mobile first approach
+
+Sett uppifrån och ned, första skiss - ansvarsfördelning
+Header (Första skiss: Jonathan) -  träd som är T ett i store.  
+Nav(Första skiss: Jonas ) - Home, Product, Vision, Contact
+Main(Första skiss: Markus ) -
+Footer(Första skiss: Jonas ) - Bild på gräs?. 
