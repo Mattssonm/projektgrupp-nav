@@ -31,10 +31,10 @@ header img{
 
 
 /* <----------------Nav styling----------------> */
-.container{
+		.container{
 			display:flex;
 			flex-direction: column;
-			height: 600px;
+			
 			
 		}
 		.navContainer{
@@ -101,11 +101,11 @@ main img {
 /* <----------------Footer styling----------------> */
 		footer {
 			display: flex;
-			flex: 1;
+			flex: 1 1 auto;
 			flex-direction: column;
 			justify-content: flex-end;
 			
-			overflow: hidden;
+			/*overflow: hidden;*/
 
 		}
 		footer h3{
