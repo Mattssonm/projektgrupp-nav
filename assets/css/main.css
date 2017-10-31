@@ -92,11 +92,18 @@ header img{
 main {
   width: 90%;
   margin: auto;
+  padding:10px;
+  margin-top: 10px;
 }
 
 main img {
   width: 100%;
+  box-shadow: 0px 2px 5px black;
+
 }
+
+
+
 
 /* <----------------Footer styling----------------> */
 		footer {
