@@ -7,22 +7,126 @@
   <link rel="stylesheet" type="text/css" href="assets/css/initialize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/general.css">
 	<title></title>
-
+  
 	<style>
+		.container{
+			display:flex;
+			flex-direction: column;
+			height: 600px;
+			
+		}
+		.navContainer{
+			display: flex;
+			
+			flex-direction: column;
+			width: 400px;
+			margin: auto;
+		}
 
-	
+		.navContainer a{
+			text-decoration: none;
+			padding: 5px;
+			flex: 1 1 auto;
+
+
+		}
+
+		.navContainer a:link{
+			color: black;
+			text-decoration: none;
+
+		}
+		.navContainer a:visited{
+			color:black;
+
+		}
+		.navContainer div:hover{
+			
+			background-color: lime;
+		}
+		.navContainer div:hover > a{
+			color:white;
+		}
+		.navLink{
+			flex: 1 1 auto;
+			text-align: center;
+			border: 2px solid black;
+			padding: 5px;
+		}
+		.navLink a{
+			display:block;
+			height: 100%;
+			width: 100%;
+		}
+		/*
+		.mainContainer{
+			flex: 5 5 auto;*/
+		main{
+			flex: 5 5 auto;
+			
+
+		}
+
+		main h3{
+			text-align: center;
+		}
+		
+		footer {
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			justify-content: flex-end;
+			
+			overflow: hidden;
+
+		}
+		footer h3{
+			text-align: center;
+		}
+
+
+		@media all and (min-width: 800px){
+			.navContainer{flex-direction: row;}
+    }
 	</style>
+
+	<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+
+  <header>
+		
+		<img src="img/ecostorelogga2.png" alt="logga">
+	</header>
+  <div class="container">
+    <nav>
+      <div class="navContainer">
+        <div class="navLink"><a href="home">Home</a></div>
+        <div class="navLink"><a href="products">Products</a></div>
+        <div class="navLink"><a href="vision">Vision</a></div>
+        <div class="navLink"><a href="about">About</a></div>
+	    </div>
+	  </nav>
+
     <main>
-        <h1>Products for a sustainable future!</h1>
-        <p>We take great pride in picking products with the best quality, best price, and smallest environtal footprint. It does not have to be overpriced to also be <strong>great for both you and the planet.</strong></p>
-        <h3>Sustainability</h3>
-        <p>We make sure our suppliers meet our strict demands for sustainability</p>
-        <h3>Quality</h3>
-        <p>We make all products meet our strict demands for quality</p>
-        <h3>Price</h3>
-        <p>We make sure our products are not priced more than necessary</p>
+      <h1>Products for a sustainable future!</h1>
+      <p>We take great pride in picking products with the best quality, best price, and smallest environtal footprint. It does not have to be overpriced to also be <strong>great for both you and the planet.</strong></p>
+      <h3>Sustainability</h3>
+      <p>We make sure our suppliers meet our strict demands for sustainability</p>
+      <h3>Quality</h3>
+      <p>We make all products meet our strict demands for quality</p>
+      <h3>Price</h3>
+      <p>We make sure our products are not priced more than necessary</p>
     </main>
+    <footer>
+      <h3>Footer</h3>
+
+
+
+    </footer>
+
+</div>	
+  
 </body>
 </html>
