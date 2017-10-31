@@ -84,10 +84,18 @@ header img:hover{
 
 /* <----------------Main-content styling----------------> */
 
-		main h3{
+		main h2 {
 			text-align: center;
 		}
 		
+main {
+  width: 90%;
+  margin: auto;
+}
+
+main img {
+  width: 100%;
+}
 
 /* <----------------Footer styling----------------> */
 		footer {
