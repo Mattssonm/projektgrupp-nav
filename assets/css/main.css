@@ -20,12 +20,20 @@ header{
 	border-top: 20px solid;
 }
 
-header img{
+header > img{
 	position: relative;
 	display: block;
 	margin: auto;
 	width: 300px;
 	top: 100px;
+}
+
+header > img + img{
+	width:20px;
+	position: absolute;
+	top:40px;
+	right: 5px;
+	background: black;
 }
 
 
