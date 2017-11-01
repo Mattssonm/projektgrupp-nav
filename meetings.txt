@@ -16,5 +16,12 @@ Mobile first approach
 Sett uppifrån och ned, första skiss - ansvarsfördelning
 Header (Första skiss: Jonathan) -  träd som är T ett i store.  
 Nav(Första skiss: Jonas ) - Home, Product, Vision, Contact
-Main(Första skiss: Markus ) -
+Main(Första skiss: Markus ) - Göra home sidan.
 Footer(Första skiss: Jonas ) - Bild på gräs?. 
+
+31/10
+Products - Jonas
+Vision - Markus
+Contact - Jonathan
+
+När vi gjort klart mobilversionen så tar vi ett nytt möte och kollar hur det gått för alla. Css filer skapas för varje sida, och vi sammanstrålar sedan för att se vilka css regler som ska gälla allmänt och som ska ligga i main.css

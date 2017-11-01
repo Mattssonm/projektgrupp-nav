@@ -20,7 +20,7 @@ header{
 	border-top: 20px solid;
 }
 
-header img{
+header > img{
 	position: relative;
 	display: block;
 	margin: auto;
@@ -28,20 +28,28 @@ header img{
 	top: 100px;
 }
 
+header > img + img{
+	width:20px;
+	position: absolute;
+	top:40px;
+	right: 5px;
+	background: black;
+}
+
 
 
 /* <----------------Nav styling----------------> */
-.container{
+		.container{
 			display:flex;
 			flex-direction: column;
-			height: 600px;
+			
 			
 		}
 		.navContainer{
 			display: flex;
 			
 			flex-direction: column;
-			width: 400px;
+			width: 100%;
 			margin: auto;
 			border-radius: 20px 0;
 			
@@ -108,11 +116,11 @@ main img {
 /* <----------------Footer styling----------------> */
 		footer {
 			display: flex;
-			flex: 1;
+			flex: 1 1 auto;
 			flex-direction: column;
 			justify-content: flex-end;
 			
-			overflow: hidden;
+			/*overflow: hidden;*/
 
 		}
 		footer h3{
@@ -124,7 +132,7 @@ main img {
 
 		@media all and (min-width: 800px){
 			.navContainer{flex-direction: row;
-				
+				width:400px;
 			}
 
 
@@ -140,11 +148,11 @@ main img {
 
 			.navContainer{
 				box-shadow: 0;
+				
 			}
 			
 				.navLink {
 					box-shadow: 0 1px 10px  black;
 			}
 
-	
 		}
