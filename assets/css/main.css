@@ -35,6 +35,14 @@ header > img + img{
 	background: black;
 }
 
+header > img + img{
+	width:20px;
+	position: absolute;
+	top:40px;
+	right: 5px;
+	background: black;
+}
+
 
 
 /* <----------------Nav styling----------------> */
