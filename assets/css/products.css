@@ -20,12 +20,20 @@ header{
 	border-top: 20px solid;
 }
 
-header img{
+header > img{
 	position: relative;
 	display: block;
 	margin: auto;
 	width: 300px;
 	top: 100px;
+}
+
+header > img + img{
+	width:20px;
+	position: absolute;
+	top:40px;
+	right: 5px;
+	background: black;
 }
 
 
@@ -34,6 +42,7 @@ header img{
 		.container{
 			display:flex;
 			flex-direction: column;
+			padding: 0 !important;
 			
 			
 		}
@@ -41,7 +50,7 @@ header img{
 			display: flex;
 			
 			flex-direction: column;
-			width: 400px;
+			width: 100%;
 			margin: auto;
 			border-radius: 20px 0;
 			
@@ -144,6 +153,7 @@ header img{
 			color: black;
 			background-color: #00E50A;
 			box-shadow: 0 1px 20px gray;
+
 			
 		}
 		.items button:hover{
@@ -156,28 +166,20 @@ header img{
 			flex-direction: column;
 			justify-content: flex-end;
 			margin-top: 10px;
-			
-			/*overflow: hidden;*/
-
 		}
 		
 		footer img{
-			/*
-			position: relative;
-			display: block;*/
 			margin: auto;
 			height: 80%;
 			width:100%
-			
-			
-}
+		}
 
 
 /* <----------------Media Queries----------------> */
 
 		@media all and (min-width: 800px){
 			.navContainer{flex-direction: row;
-				
+				width: 400px;
 			}
 
 

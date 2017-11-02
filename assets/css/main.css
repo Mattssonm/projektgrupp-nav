@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Merriweather', serif;
-    font-size: 1.125em; /* 18/16 px */
+    font-size: 1.125em !important; /* 18/16 px */
 }
 
 /* <----------------Header style----------------> */
@@ -15,7 +15,7 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-  height: 400px;
+  	height: 400px;
 	border-bottom:10px solid;
 	border-top: 20px solid;
 }
@@ -58,8 +58,11 @@ header > img + img{
 
 		.navContainer a{
 			text-decoration: none;
-			padding: 5px;
-			flex: 1 1 auto;
+			padding: 5px;/*
+			flex: 1 1 auto;*/
+			display:block;
+			height: 100%;
+			width: 100%;
 		}
 
 		.navContainer a:link{
@@ -75,21 +78,21 @@ header > img + img{
 			
 			background:linear-gradient(to top, #00AA0A, transparent);
 			border-radius: 20px 0;
-		}
+		}/*
 		.navContainer div:hover > a{
 			color:white;
-		}
+		}*/
 		.navLink{
 			flex: 1 1 auto;
 			text-align: center;
 			padding: 5px;
-		}
+		}/*
 		.navLink a{
 			display:block;
 			height: 100%;
 			width: 100%;
 			
-		}
+		}*/
 
 /* <----------------Main-content styling----------------> */
 
@@ -119,12 +122,13 @@ main img {
 			flex: 1 1 auto;
 			flex-direction: column;
 			justify-content: flex-end;
-			
-			/*overflow: hidden;*/
-
+			margin-top: 10px;
 		}
-		footer h3{
-			text-align: center;
+
+		footer img{
+			margin: auto;
+			height: 80%;
+			width:100%
 		}
 
 
@@ -132,7 +136,7 @@ main img {
 
 		@media all and (min-width: 800px){
 			.navContainer{flex-direction: row;
-				width:400px;
+				width: 400px;
 			}
 
 
