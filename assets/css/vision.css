@@ -1,0 +1,58 @@
+
+#brain {
+  position: absolute;
+  width: 20%;
+  top: 4%;
+  left: 40%;
+}
+
+#heart {
+  position: absolute;
+  width: 25%;
+  top: 35%;
+  left: 37.5%;
+}
+
+label { 
+  display: inline-block;
+  cursor: pointer;
+}
+
+#visionArticle,
+#whoWeAreArticle{
+  opacity: 0;
+  overflow-y: hidden;
+  -webkit-transition: opacity 2s; /* Safari */
+  transition: opacity 2s;
+  height: 0;
+}
+
+input[id=brainToggle]:checked ~ #visionArticle,
+input[id=heartToggle]:checked ~ #whoWeAreArticle {
+  opacity: 1;
+  height: 800px;
+}
+
+input[id=brainToggle],
+input[id=heartToggle] {
+  display: none;
+}
+
+#visionText {
+  height: 850px;
+}
+
+#visionMan {
+  width: 50%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.highlight {
+  display: block;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.25em;
+  font-style: italic;
+}
