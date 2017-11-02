@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Merriweather', serif;
-    font-size: 1.125em !important; /* 18/16 px */
+    font-size: 1.125em; /* 18/16 px */
 }
 
 /* <----------------Header style----------------> */
@@ -42,6 +42,7 @@ header > img + img{
 		.container{
 			display:flex;
 			flex-direction: column;
+			padding: 0 !important;
 			
 			
 		}
@@ -98,24 +99,66 @@ header > img + img{
 
 		main h2 {
 			text-align: center;
+			margin-bottom: 20px;
+		}
+		main h3{
+			text-align: center;
 		}
 		
-main {
-  width: 90%;
-  margin: auto;
-  padding:10px;
-  margin-top: 10px;
-}
+		main {
+		
+  			width: 90%;
+  			margin: auto;
+		}
 
-main img {
-  width: 100%;
-  box-shadow: 0px 2px 5px black;
+		main img {
+  			width: 100%;
+		}
 
-}
+		.itemsContainer{
+			display: grid;
+			margin: auto;
+			justify-content: center;
+			/*height: 500px;
+			width: 500px;*/
+			grid-gap: 20px;
+			grid-template-columns:repeat(2, 200px);
 
+		}
 
+		.items{
+			display: flex;
+			flex-direction: column;
+			height: 300px;
+			width: 200px;
+			justify-content: flex-end;
+			align-items: center;
+			
+			box-shadow: 0 1px 20px gray;
+		}
+		.items img{
+			flex: 5;
+		}
 
+		.itemButtonBox{
+			display: flex;
+			flex: 2;
+			justify-content: center;
+			align-items: center;
+			
+			
+		}
+		.items button{
+			align-items: center;
+			color: black;
+			background-color: #00E50A;
+			box-shadow: 0 1px 20px gray;
 
+			
+		}
+		.items button:hover{
+			background-color: #00AA0A;
+		}
 /* <----------------Footer styling----------------> */
 		footer {
 			display: flex;
@@ -124,7 +167,7 @@ main img {
 			justify-content: flex-end;
 			margin-top: 10px;
 		}
-
+		
 		footer img{
 			margin: auto;
 			height: 80%;
@@ -152,11 +195,11 @@ main img {
 
 			.navContainer{
 				box-shadow: 0;
-				
 			}
 			
 				.navLink {
 					box-shadow: 0 1px 10px  black;
 			}
 
+	
 		}
