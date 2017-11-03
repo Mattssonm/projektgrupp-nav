@@ -77,13 +77,14 @@ header > img + img{
 			text-decoration: none;
 
 		}
+
+	
 		.navContainer a:visited{
 			color:black;
 
 		}
 		.navContainer div:hover{
-			
-			background:linear-gradient(to top, #00AA0A, transparent);
+	background:#CFD8CA;
 			border-radius: 20px 0;
 		}/*
 		.navContainer div:hover > a{
@@ -93,7 +94,10 @@ header > img + img{
 			flex: 1 1 auto;
 			text-align: center;
 			padding: 5px;
-		}/*
+		}
+
+
+		/*
 		.navLink a{
 			display:block;
 			height: 100%;

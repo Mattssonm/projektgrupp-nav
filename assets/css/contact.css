@@ -27,6 +27,7 @@ h3{
 #employee {
 	text-align: center;
 	margin:30px;
+	color: rgba(0,0,0,0.8);;
 }
 
 
@@ -82,23 +83,100 @@ textarea{
 
 button{
 	margin-top: 10px;
-	width: 50px;
-	height: 30px;
-	align-self: flex-end;
+	padding:10px 20px;
+
+		align-self: flex-end;
 	border-radius: 10px 0;
+	background:  #C4D0BF;
+	color:white;
 }
+
+.under img{
+	display: none;
+	}
 
 main {
 	padding:5px;
 	flex-direction: column;
 }
 
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	background: #C4D0BF;
+	height:100px;
+	box-shadow:  0 -2px 10px rgba(0,0,0,0.7);
+	
+}
+
+footer > div img{
+	width: 30px;
+	height: 30px;
+		
+}
+
+
+
+footer > div img:last-child{
+	margin-left: 20px;
+}
+
+	input {
+		border-radius:20px 0;
+		text-align: center
+	}
+	input, textarea{
+		transition-property: background;
+		transition-duration: 0.6s;
+	}
+	input[type=text]:focus {
+	background: #CFD8CA;
+	box-shadow: none;
+	outline: none;
+	color:white;
+
+}
+
+textarea{
+	outline: none;
+}
+	
+
+	textarea:focus{
+		background: #CFD8CA;
+		color:white;
+		border-radius: 0px 20px;
+	}
 
 
 
 	@media (min-width: 801px ){
-
 	
+	textarea{
+		width: 500px;
+		
+		outline:none;
+	}
+		.under{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.under img{
+	width:350px;
+	height:263px;
+	align-self: center;
+	display: inline-block;
+	margin:auto;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.6);
+
+
+}
+
 
 		.form h3{
 			text-align: left
@@ -108,13 +186,11 @@ main {
 	padding:10px;
 	display: flex;
 	flex-direction: row;
-
-
+	width:50%;
 	}
 
-	textarea{
-		width: 500px;
-	}
+
+
 
 	form div {
 		flex-direction: column;
