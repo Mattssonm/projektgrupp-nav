@@ -1,3 +1,15 @@
+main img {
+  box-shadow: none;
+}
+
+.highlight {
+  display: block;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.25em;
+  font-style: italic;
+}
 
 #brain {
   position: absolute;
@@ -13,11 +25,13 @@
   left: 37.5%;
 }
 
-label { 
-  display: inline-block;
-  cursor: pointer;
+#visionMan {
+  position: relative;
+  width: 200px;
+  margin: 50px auto 0;
 }
 
+/* -------------- Fade in/out effect ---------------- */
 #visionArticle,
 #whoWeAreArticle{
   opacity: 0;
@@ -38,21 +52,11 @@ input[id=heartToggle] {
   display: none;
 }
 
-#visionText {
-  height: 850px;
+label { 
+  display: inline-block;
+  cursor: pointer;
 }
 
-#visionMan {
-  width: 50%;
-  margin: 50px auto;
-  position: relative;
-}
+/* -------------- Media Queries ---------------- */
 
-.highlight {
-  display: block;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  font-size: 1.25em;
-  font-style: italic;
-}
+
