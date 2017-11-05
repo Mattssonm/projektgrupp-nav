@@ -44,7 +44,7 @@ main img {
 input[id=brainToggle]:checked ~ #visionArticle,
 input[id=heartToggle]:checked ~ #whoWeAreArticle {
   opacity: 1;
-  height: 800px;
+  height: 100%;
 }
 
 input[id=brainToggle],
@@ -59,4 +59,49 @@ label {
 
 /* -------------- Media Queries ---------------- */
 
-
+@media all and (min-width: 1000px) {
+  #visionArticle {
+    float: left;
+  }
+  
+  #whoWeAreArticle {
+    float: right;
+  }
+  
+  #visionArticle,
+  #whoWeAreArticle{
+    height: 100%;
+    overflow-y: auto;
+    width: 40%;
+  }
+  
+  #visionMan {
+    display: inline-block;
+    width: 16%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  /*.visionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  #visionArticle,
+  #whoWeAreArticle {
+    flex: auto 3 3;
+  }
+  
+  #visionMan {
+    order: 1;
+    width: 100px;
+    flex: 100px 2;
+  }
+  
+  #whoWeAreArticle {
+    order: 2;
+  }
+  input[id=brainToggle]:checked ~ #visionArticle,
+  input[id=heartToggle]:checked ~ #whoWeAreArticle {
+  }*/
+}
