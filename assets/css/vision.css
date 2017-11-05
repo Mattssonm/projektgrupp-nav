@@ -1,3 +1,15 @@
+main img {
+  box-shadow: none;
+}
+
+.highlight {
+  display: block;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.25em;
+  font-style: italic;
+}
 
 #brain {
   position: absolute;
@@ -13,11 +25,13 @@
   left: 37.5%;
 }
 
-label { 
-  display: inline-block;
-  cursor: pointer;
+#visionMan {
+  position: relative;
+  width: 200px;
+  margin: 50px auto 0;
 }
 
+/* -------------- Fade in/out effect ---------------- */
 #visionArticle,
 #whoWeAreArticle{
   opacity: 0;
@@ -30,7 +44,7 @@ label {
 input[id=brainToggle]:checked ~ #visionArticle,
 input[id=heartToggle]:checked ~ #whoWeAreArticle {
   opacity: 1;
-  height: 800px;
+  height: 100%;
 }
 
 input[id=brainToggle],
@@ -38,21 +52,56 @@ input[id=heartToggle] {
   display: none;
 }
 
-#visionText {
-  height: 850px;
+label { 
+  display: inline-block;
+  cursor: pointer;
 }
 
-#visionMan {
-  width: 50%;
-  margin: 50px auto;
-  position: relative;
-}
+/* -------------- Media Queries ---------------- */
 
-.highlight {
-  display: block;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  font-size: 1.25em;
-  font-style: italic;
+@media all and (min-width: 1000px) {
+  #visionArticle {
+    float: left;
+  }
+  
+  #whoWeAreArticle {
+    float: right;
+  }
+  
+  #visionArticle,
+  #whoWeAreArticle{
+    height: 100%;
+    overflow-y: auto;
+    width: 40%;
+  }
+  
+  #visionMan {
+    display: inline-block;
+    width: 16%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  /*.visionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  #visionArticle,
+  #whoWeAreArticle {
+    flex: auto 3 3;
+  }
+  
+  #visionMan {
+    order: 1;
+    width: 100px;
+    flex: 100px 2;
+  }
+  
+  #whoWeAreArticle {
+    order: 2;
+  }
+  input[id=brainToggle]:checked ~ #visionArticle,
+  input[id=heartToggle]:checked ~ #whoWeAreArticle {
+  }*/
 }
