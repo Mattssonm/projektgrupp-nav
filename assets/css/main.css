@@ -4,7 +4,7 @@
 /* <----------------Base style----------------> */
 
 body {
-    font-family: 'Merriweather', serif;
+	
     font-size: 1.125em !important; /* 18/16 px */
 }
 
@@ -108,8 +108,8 @@ header > img + img{
 
 /* <----------------Main-content styling----------------> */
 
-main h2 {
-  text-align: center;
+main > h3 {
+  text-align: left;
 }
 		
 main {
@@ -145,7 +145,8 @@ main img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     background: #C4D0BF;
     height:100px;
     box-shadow:  0 -2px 10px rgba(0,0,0,0.7);
