@@ -4,6 +4,11 @@ main img {
   box-shadow: none;
 }
 
+.userInfo {
+  text-align: center;
+  margin-bottom: 0;
+}
+
 .highlight {
   display: block;
   width: 80%;
@@ -11,6 +16,14 @@ main img {
   text-align: center;
   font-size: 1.25em;
   font-style: italic;
+}
+
+.mindPink {
+  color: #ff5ffa;
+}
+
+.heartRed {
+  color: #FF0000;
 }
 
 #brain {
