@@ -90,8 +90,8 @@ header > img + img{
 
 		}
 		.navContainer div:hover{
-	background:#CFD8CA;
-			border-radius: 20px 0;
+			background:#CFD8CA !important;
+			border-radius: inherit;
 		}/*
 		.navContainer div:hover > a{
 			color:white;
@@ -100,6 +100,12 @@ header > img + img{
 			flex: 1 1 auto;
 			text-align: center;
 			padding: 5px;
+
+		}
+		
+		.navLink:first-child{
+			background:#CFD8CA;
+			border-radius: 20px 0px;
 		}
 
 
