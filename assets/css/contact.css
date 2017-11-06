@@ -38,6 +38,7 @@ h3{
 	text-align: center;
 	width:95%;
 	margin:auto;
+	font-size: 0.9em;
 
 }
 
@@ -60,7 +61,6 @@ h3{
 	margin-top: 10px;
 
 }
-
 
 
 
@@ -137,6 +137,44 @@ textarea{
 	}
 
 
+.kobild{
+	width:350px;
+	height:263px;
+	align-self: center;
+	margin:auto;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.6);
+	background: url("../../img/kobild.jpg");
+	background-size: cover;
+	position: relative;
+    transition-property: transform;
+	transition-duration: 1s;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.kobild div {
+	width:350px;
+	height: 263px;
+	position: absolute;
+	color:white;
+	background: rgba(0,0,0,0.5);
+	display: flex;
+	opacity: 0;
+	justify-content: center;
+	align-items: center;
+	transition-property: opacity;
+	transition-duration: 1s;
+
+}
+
+.kobild:hover > div {
+	opacity: 0.5;
+}
+
+
+
 
 	@media (min-width: 801px ){
 	
@@ -152,15 +190,16 @@ textarea{
 }
 
 .under img{
-	width:350px;
-	height:263px;
-	align-self: center;
-	display: inline-block;
-	margin:auto;
-	box-shadow: 0 2px 20px rgba(0,0,0,0.6);
+	
 
 
 }
+
+
+.kobild div p{
+	padding:10px;
+}
+
 
 
 		.form h3{
