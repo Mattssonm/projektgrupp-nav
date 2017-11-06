@@ -61,10 +61,12 @@ ul {
 
 }
 
-
+.info{
+}
 .info p{
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 0.7em;
+	
 }
 
 ul {
