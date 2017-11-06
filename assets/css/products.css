@@ -14,8 +14,13 @@
 
 		.navLink:nth-child(2){
 			background:#CFD8CA;
-			border-radius: 10px 0px;
-}
+			border-radius: 20px 0px;
+		}
+
+		.navLink:first-child{
+			background:white !important;
+			border-radius: 20px 0px;
+		}
 
 /* <----------------Main-content styling----------------> */
 
@@ -42,8 +47,8 @@
 		.items{
 			display: flex;
 			flex-direction: column;
-			height: 300px;
-			width: 200px;
+			height: 280px;
+			width: 180px;
 			justify-content: flex-end;
 			align-items: center;
 			
@@ -95,7 +100,7 @@
 
 		@media all and (min-width: 800px){
 			.itemsContainer{
-				grid-template-columns:repeat(4, 200px);
+				grid-template-columns:repeat(4, 180px);
 			}
 
 		}
