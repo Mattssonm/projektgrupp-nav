@@ -15,10 +15,6 @@ ul {
 	list-style: none;
 }
 
-h3{
-	margin:20px 0 0;
-}
-
 .employee{
 	padding:0;
 	display: flex;
@@ -26,11 +22,10 @@ h3{
 	flex-direction: column;
 		box-shadow: 0px -10px 20px rgba(0,0,0,0.2);
 }
-#employee {
+/*#employee {
 	text-align: center;
-	margin:30px;
 	color: rgba(0,0,0,0.8);;
-}
+}*/
 
 
 
@@ -95,7 +90,6 @@ button{
 	}
 
 main {
-	padding:5px;
 	flex-direction: column;
 }
 
@@ -162,10 +156,6 @@ textarea{
 
 }
 
-
-		.form h3{
-			text-align: left
-		}
 	form {
 	margin-top: 0px;
 	padding:10px;

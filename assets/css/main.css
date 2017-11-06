@@ -1,12 +1,16 @@
-#949F51/* Import Merriweather font*/
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 /* <----------------Base style----------------> */
 
+/* Import Merriweather font*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 body {
 	
-    font-size: 1.125em !important; /* 18/16 px */
+    font-size: 1,125em !important; /* 18/16 px */
+    font-family: "Merriweather", serif;
 }
+
+
 
 /* <----------------Header style----------------> */
 
@@ -43,6 +47,7 @@ header > img + img{
 	right: 5px;
 	background: black;
 }
+
 
 
 
@@ -115,8 +120,8 @@ main > h3 {
 main {
   width: 90%;
   margin: auto;
-  padding:10px;
-  margin-top: 10px;
+  padding: 10px;
+  margin-top: 50px;
 }
 
 main img {
