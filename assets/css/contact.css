@@ -1,7 +1,27 @@
+
+/* HEAD ------------------------------*/
+
+
+
+
+						/* BODY -----------------------------*/
+						/*************************************************/
+						/*************************************************/
+						/*************************************************/
+						/*************************************************/
+
+
+
 body{
 
 }
 
+
+						/* NAV meny ---------------------------*/
+						/*************************************************/
+						/*************************************************/
+						/*************************************************/
+						/*************************************************/
 .navLink:last-child{
 	background:#CFD8CA;
 	border-radius: 20px 0px;
@@ -15,9 +35,14 @@ body{
 #page{
 	color:black;
 }
-ul {
-	list-style: none;
-}
+
+
+							/* CONTENT --------------------------*/
+							/*************************************************/
+							/*************************************************/
+							/*************************************************/
+							/*************************************************/
+							/*************************************************/
 
 .employee{
 	padding:0;
@@ -26,10 +51,7 @@ ul {
 	flex-direction: column;
 		box-shadow: 0px -10px 20px rgba(0,0,0,0.2);
 }
-/*#employee {
-	text-align: center;
-	color: rgba(0,0,0,0.8);;
-}*/
+
 
 
 
@@ -43,23 +65,40 @@ ul {
 
 
 
+
+
+
 .employee div img{
 	width:50%;
 	float:left;
 	padding:10px;
 	margin:10px;
 	box-shadow: 0 10px  20px gray;
+
+
 }
 
 
-
-
-.form 	{
-	background: linear-gradient(to bottom , rgba(196,208,191,0.9) transparent);
-	padding:20px;
-	margin-top: 10px;
-
+.info p{
+	text-align: center;
+	font-size: 0.8em;
 }
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+				
+
+								/* FORMULÄR ---------------------------------*/
+								/*************************************************/
+								/*************************************************/
+								/*************************************************/
+								/*************************************************/
+
+
+
 
 
 
@@ -77,6 +116,7 @@ textarea{
 	margin-top: 20px;
 	border:1px solid lightgray;
 	height: 100%;
+	outline: none;
 }
 
 button{
@@ -89,33 +129,26 @@ button{
 	color:white;
 }
 
-.under img{
-	display: none;
-	}
-
-main {
-	flex-direction: column;
-}
 
 
 
 
 
-	input {
-		border-radius:20px 0;
-		text-align: center;
-		outline:0;
-		border:0;
-		border-top: 1px solid gray;
 
-				margin-top: 20px;
+input {
+	border-radius:20px 0;
+	text-align: center;
+	outline:0;
+	border:0;
+	border-top: 1px solid gray;
+	margin-top: 20px;
 	height: 30px;
-	}
-	input, textarea{
-		transition-property: background;
-		transition-duration: 0.6s;
-	}
-	input[type=text]:focus {
+}
+input, textarea{
+	transition-property: background;
+	transition-duration: 0.6s;
+}
+input[type=text]:focus {
 	background: #CFD8CA;
 	box-shadow: none;
 	outline: none;
@@ -123,9 +156,6 @@ main {
 
 }
 
-textarea{
-	outline: none;
-}
 	
 
 	textarea:focus{
@@ -133,8 +163,12 @@ textarea{
 		color:white;
 		border-radius: 0px 20px;
 	}
-
-
+									/*************************************************/
+									/*************************************************/
+									/* KOBILD ----------------------------------------*/
+									/*************************************************/
+									/*************************************************/
+									/*************************************************/
 .kobild{
 	width:300px;
 	height:225px;
@@ -180,7 +214,11 @@ textarea{
 	opacity: 0.5
 }
 
-/* MEDIA QUIERIES -------------------------------> */
+								/* MEDIA QUIERIES -------------------------------> */
+								/*************************************************/
+								/*************************************************/
+								/*************************************************/
+								/*************************************************/
 
 				@media (min-width: 801px ){
 				
@@ -190,7 +228,6 @@ textarea{
 				textarea{
 					width: 500px;
 					
-					outline:none;
 				}
 					.under{
 				display: flex;
@@ -198,39 +235,24 @@ textarea{
 				flex-direction: row;
 			}
 
+				form {
+				margin-top: 0px;
+				flex-direction: row;
+				width:50%;
+				}
 
-
-			.kobild div p{
-				padding:10px;
-			}
-
-
-
-	form {
-	margin-top: 0px;
-	padding:10px;
-	display: flex;
-	flex-direction: row;
-	width:50%;
-	}
-
-					.form h3{
-						text-align: left
-					}
+				
 				form {
 				margin-top: 0px;
 				padding:10px;
 				display: flex;
-				flex-direction: row;
 				width:50%;
 				}
 
 
 
 
-				form div {
-					flex-direction: column;
-				}
+			
 
 
 					#employee {
@@ -251,12 +273,11 @@ textarea{
 				
 			}
 
-				.info ul{
-					margin:0;
-					padding: 0;
-				}
+			
+				
 				.info p{
 					text-align: center;
+					font-size: 1em;
 				}
 
 				}
