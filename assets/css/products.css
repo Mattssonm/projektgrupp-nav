@@ -1,9 +1,12 @@
 /* <-------------Bootstrap-override------------> */
 		html > body{
 			padding: 0 !important;
-			
+
 		}
 
+		.h3 {
+			font-family: arial;
+		}
 
 /* <----------------Nav styling----------------> */
 		.container{
@@ -24,11 +27,7 @@
 
 /* <----------------Main-content styling----------------> */
 
-		main h2 {
-			text-align: center;
-			margin-bottom: 20px;
-		}
-		main h3{
+				main h3{
 			text-align: center;
 		}
 		
