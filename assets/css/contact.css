@@ -62,10 +62,15 @@ ul {
 }
 
 .info{
+	padding:0;
+}
+
+.info ul li{
+	font-size: 0.7em;
 }
 .info p{
 	text-align: center;
-	font-size: 0.7em;
+	font-size: 0.6em;
 	
 }
 
@@ -164,14 +169,13 @@ input[type=text]:focus {
 	background-size: cover;
 	position: relative;
     transition-property: transform;
-	transition-durati
-
-on: 1s;
+	transition-duration: 1s;
 	display: flex;
 	justify-content: center;
 }
 
-.kobild div {	width:250px;
+.kobild div {	
+	width:250px;
 	height:188px;
 	position: absolute;
 	color:white;
@@ -263,15 +267,27 @@ height:263px;
 				
 			}
 
+
+
+
+			}
+
+
+@media (min-width: 500px ){
+
+	.info ul li{
+	font-size: 1em;
+
+}
+		.info{
+			padding:20px;
+		}
+
 			
 				
 				.info p{
 					text-align: center;
 					font-size: 1em;
 				}
-
-				}
-
-			}
-
+}
 
