@@ -99,6 +99,7 @@ label {
     height: 100%;
     overflow-y: auto;
     width: 40%;
+    margin-bottom: 50px;
   }
   
   #visionMan {
