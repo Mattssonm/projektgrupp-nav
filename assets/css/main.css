@@ -137,19 +137,36 @@ main img {
 }
 
 /* <----------------Footer styling----------------> */
-		footer {
-			display: flex;
-			flex: 1 1 auto;
-			flex-direction: column;
-			justify-content: flex-end;
-			margin-top: 10px;
-		}
+		
 
-		footer img{
-			margin: auto;
-			height: 80%;
-			width:100%
-		}
+					
+		footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #C4D0BF;
+    height:100px;
+    box-shadow:  0 -2px 10px rgba(0,0,0,0.7);
+    
+}
+footer > div img{
+    width: 30px;
+    height: 30px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+        
+}
+footer > div img:last-child{
+    margin-left: 20px;
+}
+
+footer > div img:hover{
+	transform:rotate(20deg);
+	cursor: pointer;
+}
+
 
 
 /* <----------------Media Queries----------------> */

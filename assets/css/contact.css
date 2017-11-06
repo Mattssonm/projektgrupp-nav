@@ -97,21 +97,9 @@ main {
 	flex-direction: column;
 }
 
-footer {
-	height:100px;
-	width:100%;
-	background: url("img/grass1.jpg");
-	position-size:cover;
-	display: block;
-	
-	}
 
 
 
-
-footer > div img:last-child{
-	margin-left: 20px;
-}
 
 	input {
 		border-radius:20px 0;
