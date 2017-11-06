@@ -119,16 +119,17 @@ header > img + img{
 
 /* <----------------Main-content styling----------------> */
 
-main > h3 {
-  text-align: left;
-}
-		
 main {
   width: 90%;
   margin: auto;
   padding: 10px;
   margin-top: 50px;
 }
+
+main > h3 {
+  text-align: left;
+}
+
 
 main img {
   width: 100%;
@@ -215,5 +216,8 @@ footer > div img:hover{
 @media all and (max-width: 900px){
   .mainFlexContainer {
     flex-direction: column;
+  }
+  .flexItem {
+    margin: 0;
   }
 }
