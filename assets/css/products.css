@@ -20,12 +20,15 @@
 
 		.itemsContainer{
 			display: grid;
+			border: 0;
 			margin: auto;
 			justify-content: center;
+
 			/*height: 500px;
 			width: 500px;*/
 			grid-gap: 20px;
-			grid-template-columns:repeat(2, 200px);
+			grid-template-columns:repeat(2, 180px);
+
 
 		}
 
@@ -79,7 +82,7 @@
 /* <----------------Media Queries----------------> */
 		@media all and (max-width: 400px){
 			.itemsContainer{
-				grid-template-columns:repeat(1, 200px);
+				grid-template-columns:repeat(1, 180px);
 			}
 		}
 
