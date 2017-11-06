@@ -1,0 +1,100 @@
+/* <-------------Bootstrap-override------------> */
+		html > body{
+			padding: 0 !important;
+			
+		}
+
+
+/* <----------------Nav styling----------------> */
+		.container{
+			padding: 0 !important;
+			margin: 0 !important;
+			width: 100%;
+		}
+
+		.navLink:nth-child(2){
+			background:#CFD8CA;
+			border-radius: 10px 0px;
+}
+
+/* <----------------Main-content styling----------------> */
+
+		main h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		main h3{
+			text-align: center;
+		}
+		
+
+		.itemsContainer{
+			display: grid;
+			margin: auto;
+			justify-content: center;
+			/*height: 500px;
+			width: 500px;*/
+			grid-gap: 20px;
+			grid-template-columns:repeat(2, 200px);
+
+		}
+
+		.items{
+			display: flex;
+			flex-direction: column;
+			height: 300px;
+			width: 200px;
+			justify-content: flex-end;
+			align-items: center;
+			
+			box-shadow: 0 1px 20px gray;
+		}
+		.items img{
+			flex: 5;
+			box-shadow: none;
+		}
+
+		.itemButtonBox{
+			display: flex;
+			flex: 2;
+			justify-content: center;
+			align-items: center;
+			
+			
+		}
+		.items button{
+			align-items: center;
+			color: black;
+			background-color: white;
+			box-shadow: 0 1px 20px gray;
+			border-color: gray;
+
+			
+		}
+		.items button:hover{
+			color:black;
+			background-color: #CFD8CA;
+			border-color: gray;
+		}
+		.items button:focus{
+			background: white;
+			color: black;
+			border-color: gray;
+		}
+
+/* <----------------Media Queries----------------> */
+
+		@media all and (min-width: 800px){
+			.itemsContainer{
+				grid-template-columns:repeat(4, 200px);
+			}
+
+		}
+
+		
+
+		
+
+
+	
+		
