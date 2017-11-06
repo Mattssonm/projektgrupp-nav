@@ -142,8 +142,8 @@ textarea{
 
 
 .kobild{
-	width:350px;
-	height:263px;
+	width:300px;
+	height:225px;
 	align-self: center;
 	margin:auto;
 	box-shadow: 0 2px 20px rgba(0,0,0,0.6);
@@ -159,8 +159,8 @@ textarea{
 
 
 .kobild div {
-	width:350px;
-	height: 263px;
+	width:300px;
+	height: 225px;
 	position: absolute;
 	color:white;
 	background: rgba(0,0,0,0.5);
@@ -170,90 +170,101 @@ textarea{
 	align-items: center;
 	transition-property: opacity;
 	transition-duration: 1s;
+	padding: 20px;
 
+}
+
+#click {
+	text-align: center;
 }
 
 .kobild:hover > div {
-	opacity: 0.5;
+	opacity: 1;
 }
 
-
-
-
-	@media (min-width: 801px ){
-	
-	textarea{
-		width: 500px;
-		
-		outline:none;
-	}
-		.under{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+.kobild: > div {
+	opacity: 0.5
 }
 
-.under img{
-	
+/* MEDIA QUIERIES -------------------------------> */
 
-
-}
-
-
-.kobild div p{
-	padding:10px;
-}
-
-
-
-		.form h3{
-			text-align: left
-		}
-	form {
-	margin-top: 0px;
-	padding:10px;
-	display: flex;
-	flex-direction: row;
-	width:50%;
-	}
-
-
-
-
-	form div {
-		flex-direction: column;
-	}
-
-
-		#employee {
-	margin:20px;
-	text-align: left;
-	}
-			.employee{
+				@media (min-width: 801px ){
+				
+				#click{
+					display: none;
+				}
+				textarea{
+					width: 500px;
+					
+					outline:none;
+				}
+					.under{
+				display: flex;
+				flex-wrap: wrap;
 				flex-direction: row;
-				margin:0;
 			}
-			.employee div{
-				margin:0;
+
+			.under img{
+				
+
+
 			}
-			
-			.employee div img{
-float: none;	
-margin-top: 50px;
-	
-}
-
-	.info ul{
-		margin:0;
-		padding: 0;
-	}
-	.info p{
-		text-align: center;
-	}
-
-	}
 
 
-}
+			.kobild div p{
+				padding:10px;
+			}
+
+
+
+					.form h3{
+						text-align: left
+					}
+				form {
+				margin-top: 0px;
+				padding:10px;
+				display: flex;
+				flex-direction: row;
+				width:50%;
+				}
+
+
+
+
+				form div {
+					flex-direction: column;
+				}
+
+
+					#employee {
+				margin:20px;
+				text-align: left;
+				}
+						.employee{
+							flex-direction: row;
+							margin:0;
+						}
+						.employee div{
+							margin:0;
+						}
+						
+						.employee div img{
+			float: none;	
+			margin-top: 50px;
+				
+			}
+
+				.info ul{
+					margin:0;
+					padding: 0;
+				}
+				.info p{
+					text-align: center;
+				}
+
+				}
+
+
+			}
 
 
