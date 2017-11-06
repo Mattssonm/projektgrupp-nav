@@ -1,13 +1,3 @@
-/*------------------Nav-styling--------------------*/
-.navLink:nth-child(3){
-      background:#CFD8CA;
-      border-radius: 20px 0px;
-}
-
-.navLink:first-child{
-      background:white !important;
-      border-radius: 20px 0px;
-}
 
 /*-----------------Main-styling--------------------*/
 main img {
