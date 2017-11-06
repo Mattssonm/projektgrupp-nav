@@ -70,6 +70,7 @@ label {
   
   #visionArticle,
   #whoWeAreArticle{
+    display: hidden;
     height: 100%;
     overflow-y: auto;
     width: 40%;
@@ -81,27 +82,8 @@ label {
     margin-left: 2%;
     margin-right: 2%;
   }
-  /*.visionContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
   
-  #visionArticle,
-  #whoWeAreArticle {
-    flex: auto 3 3;
-  }
-  
-  #visionMan {
-    order: 1;
-    width: 100px;
-    flex: 100px 2;
-  }
-  
-  #whoWeAreArticle {
-    order: 2;
-  }
   input[id=brainToggle]:checked ~ #visionArticle,
   input[id=heartToggle]:checked ~ #whoWeAreArticle {
-  }*/
+    display: block;
 }
