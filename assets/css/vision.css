@@ -28,6 +28,14 @@ main img {
   font-style: italic;
 }
 
+.mindPink {
+  color: #ff5ffa;
+}
+
+.heartRed {
+  color: #FF0000;
+}
+
 #brain {
   position: absolute;
   width: 20%;
