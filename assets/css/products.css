@@ -62,7 +62,7 @@
 			
 			
 		}
-		.items button{
+		.items button, .item .btn-info{
 			align-items: center;
 			color: black;
 			background-color: white;
@@ -71,18 +71,27 @@
 
 			
 		}
-		.items button:hover{
+		.items .btn-info, .items .btn-info:active, .items .btn-info:focus{
+			background-color: white;
+			border-color: gray !important;
+			background: white;
+			color: black;
+			/*outline-color: black !important;*/
+			outline: none;
+
+		}
+		.items .btn-info:hover{
 			color:black;
 			background-color: #CFD8CA;
 			border-color: gray;
 		}
-		.items button:focus{
-			background: white;
-			color: black;
-			border-color: gray;
-		}
 
 /* <----------------Media Queries----------------> */
+		@media all and (max-width: 400px){
+			.itemsContainer{
+				grid-template-columns:repeat(1, 200px);
+			}
+		}
 
 		@media all and (min-width: 800px){
 			.itemsContainer{
