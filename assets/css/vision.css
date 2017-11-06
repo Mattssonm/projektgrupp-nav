@@ -61,8 +61,6 @@ main img {
 #whoWeAreArticle{
   opacity: 0;
   overflow-y: hidden;
-  -webkit-transition: opacity 2s; /* Safari */
-  transition: opacity 2s;
   height: 0;
 }
 
@@ -70,6 +68,8 @@ input[id=brainToggle]:checked ~ #visionArticle,
 input[id=heartToggle]:checked ~ #whoWeAreArticle {
   opacity: 1;
   height: 100%;
+  -webkit-transition: opacity 2s; /* Safari */
+  transition: opacity 2s;
 }
 
 input[id=brainToggle],
@@ -94,8 +94,7 @@ label {
   }
   
   #visionArticle,
-  #whoWeAreArticle{
-    display: hidden;
+  #whoWeAreArticle {
     height: 100%;
     overflow-y: auto;
     width: 40%;
@@ -108,8 +107,3 @@ label {
     margin-left: 2%;
     margin-right: 2%;
   }
-  
-  input[id=brainToggle]:checked ~ #visionArticle,
-  input[id=heartToggle]:checked ~ #whoWeAreArticle {
-    display: block;
-}
