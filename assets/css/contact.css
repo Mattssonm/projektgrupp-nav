@@ -4,12 +4,16 @@ body{
 
 .navLink:last-child{
 	background:#CFD8CA;
-	border-radius: 10px 0px;
+	border-radius: 20px 0px;
+}
 
+.navLink:first-child{
+			background:white !important;
+			border-radius: 20px 0px;
 }
 
 #page{
-	color:white;
+	color:black;
 }
 ul {
 	list-style: none;
