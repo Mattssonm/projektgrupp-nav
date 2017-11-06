@@ -108,9 +108,9 @@ header > img + img{
 
 /* <----------------Main-content styling----------------> */
 
-		main h2 {
-			text-align: center;
-		}
+main h2 {
+  text-align: center;
+}
 		
 main {
   width: 90%;
@@ -122,11 +122,19 @@ main {
 main img {
   width: 100%;
   box-shadow: 0px 2px 5px black;
-
 }
 
+.mainFlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-around;
+}
 
-
+.flexItem {
+  flex: 300px 1 1;
+  margin: 0 30px;
+}
 
 /* <----------------Footer styling----------------> */
 		footer {
@@ -173,3 +181,9 @@ main img {
 			}
 
 		}
+
+@media all and (max-width: 900px){
+  .mainFlexContainer {
+    flex-direction: column;
+  }
+}
