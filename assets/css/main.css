@@ -10,7 +10,7 @@ body {
     font-family: "Merriweather", serif;
 }
 
-
+ul{ list-style: none; }
 
 /* <----------------Header style----------------> */
 
@@ -161,6 +161,7 @@ main img {
     background: #C4D0BF;
     height:100px;
     box-shadow:  0 -2px 10px rgba(0,0,0,0.7);
+    clear: both;
     
 }
 footer > div img{
