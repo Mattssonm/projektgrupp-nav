@@ -1,99 +1,68 @@
-/* <-------------Bootstrap-override------------> */
-		html > body{
-			padding: 0 !important;
+/* ------------Main-content styling----------- */
+main h3{
+	text-align: center;
+}
 
-		}
+.itemsContainer{
+	display: grid;
+	justify-content: center;
+	grid-gap: 20px;
+	grid-template-columns:repeat(2, 180px);
+}
 
-/* <----------------Nav styling----------------> */
-		.container{
-			padding: 0 !important;
-			margin: 0 !important;
-			width: 100%;
-		}
-		
-/* <----------------Main-content styling----------------> */
+.items{
+	display: flex;
+	flex-direction: column;
+	height: 280px;
+	width: 180px;
+	justify-content: flex-end;
+	align-items: center;
+	box-shadow: 0 1px 20px gray;
+}
 
-				main h3{
-			text-align: center;
-		}
-		
+.items > img{
+	flex: 5;
+	box-shadow: none;
+}
 
-		.itemsContainer{
-			display: grid;
-			margin: auto;
-			justify-content: center;
-			/*height: 500px;
-			width: 500px;*/
-			grid-gap: 20px;
-			grid-template-columns:repeat(2, 200px);
+.itemButtonBox{
+	display: flex;
+	flex: 2;
+	justify-content: center;
+	align-items: center;	
+}
 
-		}
+.items button, .item .btn-info{
+	align-items: center;
+	color: black;
+	background-color: white;
+	box-shadow: 0 1px 20px gray;
+	border-color: gray;
+}
 
-		.items{
-			display: flex;
-			flex-direction: column;
-			height: 280px;
-			width: 180px;
-			justify-content: flex-end;
-			align-items: center;
-			
-			box-shadow: 0 1px 20px gray;
-		}
-		.items img{
-			flex: 5;
-			box-shadow: none;
-		}
+.items .btn-info, .items .btn-info:active, .items .btn-info:focus{
+	background-color: white;
+	border-color: gray !important;
+	background: white;
+	color: black;
+	outline: none;
+}
 
-		.itemButtonBox{
-			display: flex;
-			flex: 2;
-			justify-content: center;
-			align-items: center;
-			
-			
-		}
-		.items button, .item .btn-info{
-			align-items: center;
-			color: black;
-			background-color: white;
-			box-shadow: 0 1px 20px gray;
-			border-color: gray;
+.items .btn-info:hover{
+	color:black;
+	background-color: #CFD8CA;
+	border-color: gray;
+}
 
-			
-		}
-		.items .btn-info, .items .btn-info:active, .items .btn-info:focus{
-			background-color: white;
-			border-color: gray !important;
-			background: white;
-			color: black;
-			/*outline-color: black !important;*/
-			outline: none;
+/* ---------------Media Queries--------------- */
+@media all and (max-width: 400px){
+	.itemsContainer{
+		grid-template-columns:repeat(1, 180px);
+	}
+}
 
-		}
-		.items .btn-info:hover{
-			color:black;
-			background-color: #CFD8CA;
-			border-color: gray;
-		}
-
-/* <----------------Media Queries----------------> */
-		@media all and (max-width: 400px){
-			.itemsContainer{
-				grid-template-columns:repeat(1, 200px);
-			}
-		}
-
-		@media all and (min-width: 800px){
-			.itemsContainer{
-				grid-template-columns:repeat(4, 180px);
-			}
-
-		}
-
-		
-
-		
-
-
-	
-		
+@media all and (min-width: 800px){
+	.itemsContainer{
+		grid-template-columns:repeat(4, 180px);
+	}
+}
