@@ -61,10 +61,17 @@ ul {
 
 }
 
+.info{
+	padding:0;
+}
 
+.info ul li{
+	font-size: 0.7em;
+}
 .info p{
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 0.6em;
+	
 }
 
 ul {
@@ -153,8 +160,8 @@ input[type=text]:focus {
 									/*************************************************/
 									/*************************************************/
 .kobild{
-	width:300px;
-	height:225px;
+	width:250px;
+	height:188px;
 	align-self: center;
 	margin:auto;
 	box-shadow: 0 2px 20px rgba(0,0,0,0.6);
@@ -167,11 +174,9 @@ input[type=text]:focus {
 	justify-content: center;
 }
 
-
-
-.kobild div {
-	width:300px;
-	height: 225px;
+.kobild div {	
+	width:250px;
+	height:188px;
 	position: absolute;
 	color:white;
 	background: rgba(0,0,0,0.5);
@@ -232,8 +237,14 @@ input[type=text]:focus {
 				width:50%;
 				}
 
+				.kobild{
+						height:263px;
+						width:350px;
+					}
 
-
+				.kobild div {
+height:263px;
+						width:350px;}
 
 			
 
@@ -256,16 +267,27 @@ input[type=text]:focus {
 				
 			}
 
+
+
+
+			}
+
+
+@media (min-width: 500px ){
+
+	.info ul li{
+	font-size: 1em;
+
+}
+		.info{
+			padding:20px;
+		}
+
 			
 				
 				.info p{
 					text-align: center;
 					font-size: 1em;
 				}
-
-				}
-
-
-			}
-
+}
 
