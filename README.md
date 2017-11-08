@@ -1,8 +1,13 @@
-# projektgrupp-nav
+# Frontend Utveckling 2017, Ec Utbildning
+## projektgrupp-nav
 Projektarbete HTML &amp; CSS
 
-Gruppmedlemmar: Jonas Björk, Jonathan Johansson, Markus Mattsson, Denny Särén
+Gruppmedlemmar: Jonas Björk, Jonathan Johansson, Markus Mattsson
 
+Vi har valt att bygga en sida för, det påhittade, företaget Eco Store som säljer miljövänliga produkter.
+Resultatet kan ni se här: https://mattssonm.github.io/projektgrupp-nav/
+
+# Instruktioner:
 Projektuppgift HTML+CSS
 Webbshop
 Introduktion
