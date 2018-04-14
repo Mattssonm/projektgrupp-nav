@@ -1,6 +1,6 @@
 # Eco Store
 
-A static fictional company page
+A static fictional company page.
 
 # Motivation
 Built for a school assignment at EC Utbildning, Gothenburg(SE), to practice our skills in web presentation and responsive design. 
